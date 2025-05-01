@@ -2,7 +2,7 @@
 
 ## Description
 
-Codes to implement hurdle network model with latent dynamic shrinkage (Hurdle-Net) as proposed in [Pramanik et al. (2025+)](https://try) and reproduce figures/results therein. 
+Codes to implement hurdle network model with latent dynamic shrinkage (Hurdle-Net) as proposed in [Pramanik et al. (2025+)](http://arxiv.org/abs/2504.21275) and reproduce figures/results therein. 
 
 ## Credit
 
@@ -25,7 +25,7 @@ source(file.path(source.code.path, 'hurdlenet-functions.R'))    # sources "hurdl
 
 In the `sourcecode` folder, `hurdlenet-functions.R` contains all the required functions as listed below:
  
- * `hurdlenet()` for fitting Hurdle-Net(1), Hurdle-Net(0), independent model, and static model (as described in [Pramanik et al. (2025+)](https://try)),
+ * `hurdlenet()` for fitting Hurdle-Net(1), Hurdle-Net(0), independent model, and static model (as described in [Pramanik et al. (2025+)](http://arxiv.org/abs/2504.21275)),
  * `fitted.hurdlenet()` for computing model quantities in the training data based on `hurdlenet()` fit,
  * `predict.hurdlenet()` for predicting at future time points based on `hurdlenet()` fit,
  * `sim.hurdlenet()` for generating simulated data.
